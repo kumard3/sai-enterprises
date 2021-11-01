@@ -8,7 +8,7 @@ export default function contact() {
               Let's talk!
             </h2>
             <div className="text-coolGray-600">
-              Fill in the form to start a conversation
+              Fill in the form to start  conversation
             </div>
           </div>
           <img src="/doodle.svg" alt="" className="p-6 h-52 md:h-64" />
@@ -25,7 +25,7 @@ export default function contact() {
               id="name"
               type="text"
               placeholder=""
-              className="w-full p-3 rounded bg-coolGray-100 border-"
+              className="w-full p-3 rounded  border-2 border-solid	border-black"
             />
           </div>
           <div>
@@ -35,7 +35,7 @@ export default function contact() {
             <input
               id="email"
               type="email"
-              className="w-full p-3 rounded bg-coolGray-100"
+              className="w-full p-3 rounded bg-coolGray-100 border-2 border-solid	border-black"
             />
           </div>
           <div>
@@ -45,7 +45,7 @@ export default function contact() {
             <textarea
               id="message"
               rows="3"
-              className="w-full p-3 rounded bg-coolGray-100"
+              className="w-full p-3 rounded border-2 border-solid	border-black"
             ></textarea>
           </div>
           <button
