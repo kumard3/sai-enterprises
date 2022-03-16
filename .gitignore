@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+/.yarn.lock
+.vscode
 # next.js
 /.next/
 /out/
